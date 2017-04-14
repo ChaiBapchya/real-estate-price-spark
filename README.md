@@ -12,12 +12,14 @@ Apache Spark
 
 ## UI 
 + Spark Job Web UI
+
 While a spark job is running, UI can be found at - http://`<socket-address>`
 For e.g. http://192.168.1.4:4040
 
 However, once the job is completed, one is unable to view the UI.
 
 + History Server
+
 Run the shell script to start the history server. It accesses the /tmp/spark-events for Event Logs.
 
 `/usr/local/spark/sbin/start-history-server.sh`
