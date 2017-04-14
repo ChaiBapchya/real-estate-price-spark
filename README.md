@@ -10,8 +10,8 @@ Library - Scrapy, Beautiful Soup
 Data Analysis
 Apache Spark
 
-UI - `
-While a spark job is running, UI - http://<socket-address>`
+UI 
+While a spark job is running, UI - http://`<socket-address>`
 For e.g. http://192.168.1.4:4040
 However, once the job is completed, one is unable to view the UI.
 
